@@ -8,6 +8,14 @@ import KompleWeb from "./images/kompleweb.jpg";
 function App() {
   return (
     <div className="App">
+      <section class="hero is-link">
+  <div class="hero-body">
+    <p class="title">
+      Kurslarım
+    </p>
+   
+  </div>
+</section>
       <div className="container">
         <div className="columns">
           <div className="column"></div>
