@@ -1,10 +1,11 @@
-import "./App.css";
-import "bulma/css/bulma.css";
-import Course from "./Course";
-import Angular from "./images/angular.jpg";
-import Bootstrap from "./images/bootstrap5.png";
-import CCsharp from "./images/ccsharp.png";
-import KompleWeb from "./images/kompleweb.jpg";
+import 'bulma/css/bulma.css';
+import './App.css';
+import Course from './Course';
+import Angular from './images/angular.jpg';
+import Bootstrap from './images/bootstrap5.png';
+import Csharp from './images/ccsharp.png';
+import KompleWeb from './images/kompleweb.jpg';
+
 function App() {
   return (
     <div className="App">
@@ -16,39 +17,32 @@ function App() {
       <div className="container">
         <section className="section">
           <div className="columns">
-            <div className="column"></div>
             <div className="column">
               <Course
                 image={Angular}
                 title="Angular"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente optio nihil, libero minima quaerat dignissimos iure, odio pariatur obcaecati assumenda earum voluptatem neque iste!
-    "
+                description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, tempore cumque accusantium ad, tenetur laborum omnis praesentium error odio earum molestiae! Tempore quam a voluptates, nisi dolor ipsam qui unde."
               />
             </div>
             <div className="column">
               <Course
                 image={Bootstrap}
-                title="Bootstrap"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente optio nihil, libero minima quaerat dignissimos iure, odio pariatur obcaecati assumenda earum voluptatem neque iste!
-"
+                title="Bootstrap 5"
+                description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, tempore cumque accusantium ad, tenetur laborum omnis praesentium error odio earum molestiae! Tempore quam a voluptates, nisi dolor ipsam qui unde."
               />
             </div>
-
             <div className="column">
               <Course
-                image={CCsharp}
+                image={Csharp}
                 title="Komple Web"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente optio nihil, libero minima quaerat dignissimos iure, odio pariatur obcaecati assumenda earum voluptatem neque iste!
-    "
+                description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, tempore cumque accusantium ad, tenetur laborum omnis praesentium error odio earum molestiae! Tempore quam a voluptates, nisi dolor ipsam qui unde."
               />
             </div>
-
             <div className="column">
               <Course
                 image={KompleWeb}
-                title="Front-End"
-                description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente optio nihil, libero minima quaerat dignissimos iure, odio pariatur obcaecati assumenda earum voluptatem neque iste!
-    "
+                title="Frontend"
+                description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, tempore cumque accusantium ad, tenetur laborum omnis praesentium error odio earum molestiae! Tempore quam a voluptates, nisi dolor ipsam qui unde."
               />
             </div>
           </div>
